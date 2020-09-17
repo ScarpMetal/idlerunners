@@ -1,0 +1,28 @@
+.App {
+	.armour-stats {
+		.stats-table {
+			thead {
+				td {
+					//width: 200px;
+				}
+			}
+			tbody {
+				.attr-label {
+					width: 100px;
+				}
+				.stat-bar-item {
+					width: 8px;
+					background-color: grey;
+
+					&.red {
+						background-color: red;
+					}
+
+					&.green {
+						background-color: green;
+					}
+				}
+			}
+		}
+	}
+}
